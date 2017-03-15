@@ -179,7 +179,7 @@ object TermsAndTypes extends ScalaTutorialSection {
     * Here are some more methods of standard types. Can you guess what they do?
     */
   def moreMethods(res0: String, res1: Boolean, res2: String): Unit = {
-    16.toHexString shouldBe res0
+    15.toHexString shouldBe res0 
     (0 to 10).contains(10) shouldBe true
     (0 until 10).contains(10) shouldBe res1
     "foo".drop(1) shouldBe "oo"
